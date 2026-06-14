@@ -1,0 +1,13 @@
+# FO_TOJ - Core dependencies (required)
+customtkinter>=5.2.0
+pillow>=10.0.0
+numpy>=1.24.0
+
+# Recommended (improves fallback scoring + RAW support)
+opencv-python-headless>=4.8.0
+rawpy>=0.18.0
+
+# Optional AI image-quality assessment (graceful fallback if missing).
+# May require Python <= 3.12 for prebuilt wheels.
+# torch>=2.0.0
+# pyiqa>=0.1.10
